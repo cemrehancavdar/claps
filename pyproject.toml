@@ -1,0 +1,17 @@
+[project]
+name = "claps"
+version = "0.1.0"
+description = "Dummy placeholder for claps"
+readme = "README.md"
+authors = [
+    { email = "cemrehancavdar@hotmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+claps = "claps:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
